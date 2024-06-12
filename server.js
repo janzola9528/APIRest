@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Conexión a la base de datos MongoDB
-mongoose.connect('URL_DE_CONEXION_A_TU_BASE_DE_DATOS', {
+mongoose.connect('mongodb://mongo:dSRUoaZNnsdpUAHNcYBcwkpUHpLROsVy@roundhouse.proxy.rlwy.net:57853', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
